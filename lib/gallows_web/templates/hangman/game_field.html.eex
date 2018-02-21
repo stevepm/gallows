@@ -1,0 +1,8 @@
+game field
+<%= inspect(@tally) %>
+<p>Turns left: <%= @tally.turns_left %></p>
+<p>Word so far: <%= words_so_far(@tally.letters) %></p>
+
+<form>
+
+</form>
